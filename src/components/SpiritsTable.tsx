@@ -41,12 +41,12 @@ const SpiritsTable = ({ spiritsList }: { spiritsList: SpiritsList }) => {
         </thead>
         <tbody>
           {Object.entries(spiritsList)
-            .filter(([category, spirits]) => {
-              if (selectedOption.value === 'All') {
+            .filter(([category]) => {
+              if (selectedOption?.value === 'All') {
                 return true;
               }
 
-              if (selectedOption.value === category) {
+              if (selectedOption?.value === category) {
                 return true;
               }
 
