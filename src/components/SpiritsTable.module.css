@@ -1,0 +1,35 @@
+.textAlignRight {
+    text-align: right;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
+
+.fwBold {
+    font-weight: bold;
+}
+
+.wrapper {
+    padding: 16px;
+    width: 350px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e5e7eb;
+    margin: 20px 0;
+}
+
+.tableHead {
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    padding: 12px;
+    text-align: left;
+}
+
+.td {
+    border: 1px solid #e5e7eb;
+    padding: 12px;
+}
